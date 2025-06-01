@@ -38,7 +38,7 @@ def combined_plotter(
     
     plt.plot(ind_var_cont, dep_var_cont, label=graph_label_cont, color='blue')
     plt.stem(ind_var_disc, dep_var_disc, linefmt='r-', markerfmt='ro', basefmt='k-', 
-             label=graph_label_disc)  # ✅ Línea corregida
+             label=graph_label_disc)  
 
     plt.title(title)
     plt.xlabel(x_label)
