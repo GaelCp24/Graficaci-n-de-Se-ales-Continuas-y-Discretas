@@ -48,3 +48,20 @@ def combined_plotter(
     plt.tight_layout()
     plt.show()
     
+def more_continous_signal(
+        time,
+        signal_1, signal_2,
+        label_1: str = "", label_2: str = "",
+        title: str = "",
+        x_label: str = "", y_label: str = ""):
+
+    plt.plot(time, signal_1, label=label_1)
+    plt.plot(time, signal_2, label=label_2, linestyle='--')  # Estilo punteado para diferenciar
+    plt.title(title)
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.legend(loc='upper right')
+    plt.grid(True)
+    plt.show()
+
+    
