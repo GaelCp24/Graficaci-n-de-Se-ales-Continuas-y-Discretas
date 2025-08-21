@@ -48,7 +48,7 @@ Opciones disponibles:
 
 ### Ejemplo:
 
-```Conversión digital-analógica (DAC) indicando el número de bits.```
+```Python main.py tarea4 6```
 
 ## Examen Parte 1 y Parte 2.
 
