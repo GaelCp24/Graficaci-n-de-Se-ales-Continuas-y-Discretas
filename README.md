@@ -54,8 +54,8 @@ Opciones disponibles:
 
 ### Ejemplo:
 
-```python main.py ExamenP1.```
-```python main.py ExamenP2.```
+```python main.py ExamenP1```
+```python main.py ExamenP2```
 
 ### NOTA:
 No olvides primero instalar los requerimientos con `pip install -r "requeriments.txt`.
