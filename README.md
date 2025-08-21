@@ -14,7 +14,7 @@ El objetivo de este repositorio es documentar y desarrollar prácticas y activid
 
 Para ejecutar las diferentes tareas y exámenes incluidos en este repositorio, abre una terminal y utiliza Python de la siguiente manera:
 
-```bash python main.py [actividad] [opciones] ```
+```python main.py [actividad] [opciones] ```
 
 
 Donde `[Actividad] puede ser:`
@@ -29,26 +29,26 @@ Opciones disponibles:
 
 ### Ejemplo:
 
-```bash python main.py tarea1 sinusoidal_signal```
+```python main.py tarea1 sinusoidal_signal```
 
 ## Tarea 2: Señal sinusoidal continua con frecuencia específica.
 
 ### Ejemplo:
 
-```bash python main.py tarea2 6```
+```python main.py tarea2 6```
 
 ## Tarea 3: Señales sinusoidales en tiempo continuo o discreto con parámetros: tipo, frecuencia, amplitud y fase (grados).
 
 ## Ejemplo: 
 
-```bash python main.py tarea3 sinusoidal_cont_signal 6 2 20```
-```bash python main.py tarea3 sinusoidal_disc_signal 6 2 20```
+```python main.py tarea3 sinusoidal_cont_signal 6 2 20```
+```python main.py tarea3 sinusoidal_disc_signal 6 2 20```
 
 ## Tarea 4: Conversión digital-analógica (DAC) indicando el número de bits.
 
 ### Ejemplo:
 
-```bash Conversión digital-analógica (DAC) indicando el número de bits.```
+```Conversión digital-analógica (DAC) indicando el número de bits.```
 
 ## Examen Parte 1 y Parte 2.
 
