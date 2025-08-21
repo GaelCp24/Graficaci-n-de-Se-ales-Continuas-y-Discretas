@@ -8,11 +8,8 @@ from src.tarea2 import continous_sinusoidal_sign
 from src.tarea3 import sinusoidal_cont_signal
 from src.tarea3 import sinusoidal_disc_signal
 from src.tarea4 import DAC
-<<<<<<< HEAD
-=======
 from src.ExamenP1 import dft
 from src.ExamenP2 import examen_p2
->>>>>>> c4e34a4 (ExamenU3)
 
 
 def clear():
@@ -99,8 +96,6 @@ def main(options):
             print("\n   \033[1;33mEjemplo\033[0m: Python main.py tarea3 sinusoidal_cont_signal 6 2 20")            
             print("   \033[1;33mEjemplo\033[0m: Python main.py tarea3 sinusoidal_disc_signal 6 2 20")
             print("\n")
-<<<<<<< HEAD
-=======
             
     elif options[1] == "ExamenP1":
         clear()
@@ -110,7 +105,6 @@ def main(options):
         clear()
         examen_p2()
     
->>>>>>> c4e34a4 (ExamenU3)
                 
     elif options [1] == "tarea4":
         clear()
@@ -154,11 +148,8 @@ if __name__ == '__main__':
         print("   \033[1;33mEjemplo\033[0m: (actividad 2) >> Python main.py tarea2 6")
         print("   \033[1;33mEjemplo\033[0m: (actividad 3) >> Python main.py tarea3 sinusoidal_cont_signal 6 2 20")
         print("   \033[1;33mEjemplo\033[0m: (actividad 4) >> Python main.py tarea4 2")
-<<<<<<< HEAD
-=======
         print("   \033[1;33mEjemplo\033[0m: (Examen Parte 1) >> Python main.py ExamenP1")
         print("   \033[1;33mEjemplo\033[0m: (Examen Parte 2) >> Python main.py ExamenP2")
->>>>>>> c4e34a4 (ExamenU3)
         print("\n")
         
     
