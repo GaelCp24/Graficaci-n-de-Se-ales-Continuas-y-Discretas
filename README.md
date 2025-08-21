@@ -1,23 +1,63 @@
-Graficación de Señales Continuas y Discretas
 
-## 1. Señales a graficar:
-x₁(t) = sin(2π·f·t) (Señal sinusoidal de frecuencia f; recomendación utilizar f=2)
-x₂(t) = e^(–2t) · u(t)* (Señal exponencial;  u(t) es la señal escalón unitario: u(t)=1 para t>=0 , u(t)=0 para t<0 )
-x₃(t) = tri(t, f) ( Señal triangular periódica de frecuencia f; se recomienda utilizar f=2)
-x₄(t) = sq(t, f) (Señal cuadrada de frecuencia f; se recomienda utilizar f=2)
+# Graficación de Señales Continuas y Discretas
 
-## 2. Dominio de tiempo:
-Selecciona t ∈ [–1, 5] s (puedes ajustarlo según la señal).
+## Objetivo:
+El objetivo de este repositorio es documentar y desarrollar prácticas y actividades relacionadas con el análisis y procesamiento de señales, tanto en tiempo continuo como discreto. Se incluyen ejercicios de:
 
-## 3. Gráfica de la señal continua
-Usa numpy.linspace con al menos 1000 puntos para generar t.
-Calcula x_cont = x(t).
-Grafica x_cont como línea suave.
+- Graficación de señales continuas y discretas.
+- Exploración de la frecuencia en señales sinusoidales continuas.
+- Análisis de parámetros de señales sinusoidales en tiempo continuo y discreto.
+- Implementación de conversión digital-analógica (DAC) y analógica-digital (ADC).
+- Aplicación de la Transformada de Fourier Discreta (DFT) para el análisis espectral de señales.
 
-## 4. Muestreo y señal discreta
-Define un periodo de muestreo adecuado (definido heurísticamente, ejemplo: Tₛ = 0.01 s ).
-Genera n = np.arange(N) de modo que tₙ = n·Tₛ cubra el mismo intervalo.
-Calcula x_disc = x(tₙ).
-Superpone los puntos muestreados sobre la gráfica continua
+## Como Ejecutar
 
-## PARA PROBAR LA TAREA, SOLO ES NECESARIO CORRER EL ARCHIVO main.py
+Para ejecutar las diferentes tareas y exámenes incluidos en este repositorio, abre una terminal y utiliza Python de la siguiente manera:
+
+```bash python main.py [actividad] [opciones] ```
+
+
+Donde `[Actividad] puede ser:`
+
+## Tarea 1: Graficar señales básicas. 
+Opciones disponibles:
+
+- sinusoidal_signal
+- exponential_signal
+- triangular_signal_of_frequency
+- square_frequency_signal
+
+### Ejemplo:
+
+```bash python main.py tarea1 sinusoidal_signal```
+
+## Tarea 2: Señal sinusoidal continua con frecuencia específica.
+
+### Ejemplo:
+
+```bash python main.py tarea2 6```
+
+## Tarea 3: Señales sinusoidales en tiempo continuo o discreto con parámetros: tipo, frecuencia, amplitud y fase (grados).
+
+## Ejemplo: 
+
+```bash python main.py tarea3 sinusoidal_cont_signal 6 2 20```
+```bash python main.py tarea3 sinusoidal_disc_signal 6 2 20```
+
+## Tarea 4: Conversión digital-analógica (DAC) indicando el número de bits.
+
+### Ejemplo:
+
+```bash Conversión digital-analógica (DAC) indicando el número de bits.```
+
+## Examen Parte 1 y Parte 2.
+
+### Ejemplo:
+
+```python main.py ExamenP1.```
+```python main.py ExamenP2.```
+
+### NOTA:
+No olvides primero instalar los requerimientos con `pip install -r "requeriments.txt`.
+
+
